@@ -1,0 +1,17 @@
+{
+  "menu_stocks": [
+    { "id": 1, "name": "Счастливые часы", "desk": "Приходя в счастливые часы", "photo": "/static/img/slider/img01.jpg" },
+    { "id": 2, "name": "День рождения", "desk": "Приходя к нам в свой день рождения вы получаете скидку 10% Акция действует за два до дня рождения и два дня после. Не забудьте взять собой подтверждающий документ", "photo": "/static/img/slider/img02.jpg" }
+  ],
+  "menu_category": [
+    { "id": 1, "title": "Салаты", "type_menu": 1 },
+    { "id": 2, "title": "Пицца", "type_menu": 1 },
+    { "id": 3, "title": "Роллы", "type_menu": 1 },
+    { "id": 4, "title": "Детское меню", "type_menu": 2 }
+  ],
+  "menu_products": [
+    { "id": 1, "name": "Салат цезарь с куриными стрипсами", "desk": "Не стандартная подача всеми любимого цезаря с интересной задумкой от шеф-повара, С замено- привычного филе на хрустящие куриные стрипсы", "price": 2290, "photo": "/static/img/cards/img01.jpg", "type_menu": 1, "categories_id": 1 },
+    { "id": 2, "name": "Пицца c тунцом", "desk": "Описание пиццы", "price": 3190, "photo": "/static/img/cards/img01.jpg", "type_menu": 1, "categories_id": 2},
+    { "id": 3, "name": "Фруктовый салат", "desk": "Описание фруктового салата", "price": 1190, "photo": "/static/img/cards/img01.jpg", "type_menu": 1, "categories_id": 1 }
+  ]
+}

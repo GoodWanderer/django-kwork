@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="83823525-357c-44d1-9d38-d24f0354979c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/css/lightslider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/css/lightslider.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/css/main_product.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/css/template-default-general.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/css/template-default-overwrites.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/css/template-default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/fonts/SanFrancisco/SFUIDisplay-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/fonts/SanFrancisco/SFUIText-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/fonts/SanFrancisco/SFUIText-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/img/general/ic-angle_down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/img/general/ic-close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/img/general/ic-success.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/img/general/shape.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/js/app2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/js/cart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/js/i18n_resources.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/js/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/js/lighterhtml.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/js/lightslider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/js/lightslider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/js/lodash.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/js/main.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/js/pl-scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/js/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/static/js/sticky.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/templates/menu/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu/templates/menu/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/templates/menu/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu/templates/menu/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/templates/menu/med.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu/templates/menu/med.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/menu/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ruzso08huzY1WnyJ8XXASvhBiC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/menu/static/img/order" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\HtmlCSSProjct\freelance\pyDj\django_qr_menu\menu\static\img\order" />
+      <recent name="D:\code\HtmlCSSProjct\freelance\pyDj\django_qr_menu\menu\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\HtmlCSSProjct\freelance\pyDj\django_qr_menu\menu\static\libs\swiper" />
+      <recent name="D:\code\HtmlCSSProjct\freelance\pyDj\django_qr_menu\menu\static" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83823525-357c-44d1-9d38-d24f0354979c" name="Default Changelist" comment="" />
+      <created>1619840971606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619840971606</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="733" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620056297380">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="733" y="321" key="#com.intellij.fileTypes.FileTypeChooser/1920.-1.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1620056297380" />
+  </component>
+</project>

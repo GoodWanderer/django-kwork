@@ -1,0 +1,25 @@
+{% extends 'menu/base.html'%}
+
+{% block title %}Мёд{% endblock %}
+
+{% block content %}
+
+{% for action in stocks%}
+
+<a href="">Hello</a>
+<a href="{{ action.name}}">{{ action.name}}</a>
+<p>{{ action.desk}}</p>
+<img src="{{action.photo}}" alt="">
+{% endfor %}
+
+    {% for el in products %}
+    <h2>{{ el.name}}</h2>
+    <p>{{ el.desk}}</p>
+
+    <p>{{ el.price}}</p>
+    <p>{{ el.volume}}</p>
+<img src="{{ el.photo}}" alt="{{ el.photo}}">
+    <p>{{ el.categories}}</p>
+
+    {% endfor%}
+{% endblock %}

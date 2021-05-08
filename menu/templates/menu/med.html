@@ -1,0 +1,121 @@
+{% extends 'menu/base.html'%}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+<input type="text" id="value" value="{{ products|safe }}" style="display: none;" readonly>
+
+<header class="header">
+    <div class="header__content _container">
+        <div class="header__row">
+            <a href="" class="header__logo"><img src="/static/img/header/logo.png" alt="logo"></a>
+            <div class="header__select select-header">
+                <span class="select-header__item-on" num = 1>{{ type_menu|first }}</span>
+                <img src="/static/img/header/arrow.svg" alt="">
+                <div class="select-header__body">
+                    {% for type in type_menu %}
+                        {% if forloop.first %}
+                            <span class="select-header__item select-item _active"  num = 1>{{type}}</span>
+                        {% else %}
+                            <span class="select-header__item select-item"  num={{ forloop.counter }}>{{type}}</span>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="page">
+    <div class="home">
+        <div class="home__content _container">
+            <div class="home__slider slider-home swiper-container">
+                <div class=" slider-home__wrapper swiper-wrapper">
+                    {% for stock in stocks %}
+                        <div class="slider-home__slide swiper-slide"></div>
+                    {% empty %}
+                        <div class="slider-home__slide swiper-slide"><div class="slider-home__img" style="display: none;"></div></div>
+                    {% endfor %}
+                </div>
+                <div class="slider-home__pagination swiper-pagination"></div>
+            </div>
+            <div class="home__category category-home">
+            </div>
+            <div class="home__body body-home">
+                <div class="body-home__page"></div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<div class="popup-slider">
+    <div class="popup-slider__close"></div>
+    <div class="popup-slider__img"><img src="" alt=""></div>
+    <div class="popup-slider__body"></div>
+    <div class="popup-slider__btn">Продолжить</div>
+</div>
+
+<div class="popup-slider-cart">
+    <div class="popup-slider-cart__close"></div>
+    <div class="popup-slider-cart__img"><img src="" alt=""></div>
+    <div class="popup-slider-cart__body">
+        <div class="popup-slider-cart__title">Счастливые часы</div>
+        <div class="popup-slider-cart__text">Приходя к нам на обед с 12:00 до 15:00 Вы получаете скидку 20% на меню. Акция действует только в будние дни.</div>
+        <div class="popup-slider-cart__row">
+            <div class="popup-slider-cart__price">1690 ₸</div>
+            <div class="popup-slider-cart__add">
+                <span>Добавить</span>
+                <div class="popup-slider-cart__change">
+                    <div class="popup-slider-cart__minus">-</div>
+                    <input class="popup-slider-cart__counter" type="text" value=0 readonly>
+                    <div class="popup-slider-cart__plus">+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup-slider-cart__btn">Продолжить</div>
+</div>
+
+<div class="popup-slider-cheque">
+    <div class="popup-slider-cheque__head">
+        <span class="popup-slider-cheque__close"></span>
+    </div>
+    <div class="popup-slider-cheque__body">
+        <div class="popup-slider-cheque__items">
+
+<!--            <div class="popup-slider-cheque__item">-->
+<!--                <div class="popup-slider-cheque__left">-->
+<!--                    <div class="popup-slider-cheque__title">Рис</div>-->
+<!--                    <div class="popup-slider-cheque__change">-->
+<!--                        <div class="popup-slider-cheque__minus">-</div>-->
+<!--                        <input class="popup-slider-cheque__counter" type="text" value=0 readonly>-->
+<!--                        <div class="popup-slider-cheque__plus">+</div>-->
+<!--                    </div>-->
+<!--                    <div class="popup-slider-cheque__price">2400 ₸</div>-->
+<!--                </div>-->
+<!--                <div class="popup-slider-cheque__right"><img src="/static/img/order/del.png" alt=""></div>-->
+<!--            </div>-->
+
+        </div>
+        <div class="popup-slider-cheque__money">
+            <div class="popup-slider-cheque__sum"><strong>Сумма заказа:</strong><strong class="st2">11940 ₸</strong></div>
+            <div class="popup-slider-cheque__service"><strong>Обслуживание 10%:</strong><strong class="st2">1194 ₸</strong></div>
+            <div class="popup-slider-cheque__total"><strong>Всего к оплате:</strong><strong class="st2">13134 ₸</strong></div>
+        </div>
+    </div>
+    <div class="popup-slider-cheque__clear"><img src="/static/img/order/clear.png" alt=""> Очистить</div>
+</div>
+
+<div class="pupup-count">
+    <div class="pupup-count__text">Посмотреть список</div>
+    <div class="pupup-count__num">3</div>
+</div>
+
+<script type="module" src="/static/js/script.js"></script>
+<script type="module" src="/static/js/menu.js"></script>
+<!--<script type="module" src="/static/js/order.js"></script>-->
+
+<script type="module" src="/static/libs/swiper/swiper.js"></script>
+<script type="module" src="/static/js/slider.js"></script>
+
+{% endblock %}
